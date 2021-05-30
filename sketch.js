@@ -59,7 +59,7 @@ function draw() {
   background(0);  
 
  
-  drawSprites();
+  //drawSprites();
 textSize (35);
 text("Score :"+score,20,40)
 
@@ -103,10 +103,10 @@ for(var j=0; j < plinkos.length; j++){
 
 
 if(particle!=null){
-
+console.log("game")
     particle.display();
 
-         if(particle.body.position.y>700)
+         if(particle.body.position.y>470)
          {
 
           if(particle.body.position.x<300){
